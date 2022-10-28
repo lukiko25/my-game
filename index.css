@@ -1,0 +1,190 @@
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 80px;
+    color: white;
+}
+.p{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+body{
+    background-image: url(images/table.jpg);
+    font-family: 'Fredoka One', cursive;
+}
+
+header{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background: none;
+    border-color: gold;
+    color: gold; 
+    border: solid 8px;
+    border-radius: 100px;
+    font-size: 50px;
+}
+
+
+#p1-0{
+    margin: 36px 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#p2-0{
+    margin: 36px 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+
+.container{
+    display: flex; 
+    flex-direction: column;
+}
+
+.grid-container1{
+    background-color: rgba(250, 250, 250, 0.4); 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 0px 25px; 
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.grid-score{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+}
+
+.one{
+    align-self: center;
+}
+
+.two{
+    align-self: center;
+} 
+
+
+.grid-container2{
+    background-color: none; 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    /* grid-gap: 00px 50px; */
+    justify-content: space-around;
+}
+
+
+.btn-section{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn{
+    justify-content: center;
+    align-self: center;
+    margin: 15px;
+} 
+
+#score-img2{
+    height: 40px; 
+    width: 30px;
+    margin: 0px 12px;
+    margin-top: 27px
+}
+
+#score-img1{
+    height: 40px; 
+    width: 30px;
+    margin: 0px 12px;
+    margin-top: 27px
+}
+
+#p1{
+    height: 300px; 
+    width: 320px;
+    border-radius: 10px;
+}
+
+#p2{
+    height: 300px; 
+    width: 320px;
+    border-radius: 10px;
+}
+
+.itemVs{
+    margin-top: 115px;
+}
+
+#rock:hover,#paper:hover,#scissor:hover{
+    color: white;
+    background-color: rgba(250, 250, 250, 0.2);   
+}
+
+#restart:hover{
+    background-color: rgba(250, 250, 250, 0.2); 
+}
+
+#rock:focus,#paper:focus,#scissor:focus,#restart:focus{
+    background-color: black;
+    color: white;
+} 
+
+#restart:focus{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#rock{
+    color: purple;
+}
+#paper{
+    color: blue;
+    padding-left:13px; 
+}
+#restart{
+    color: black;
+}
+
+#scoreall{
+    grid-column: 2;
+    justify-self: center;
+    margin-top: 0px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.restart-btn{
+    margin: auto;
+    display: block;
+    width: 220px;
+    height: 45px;
+    background: none;
+    font-weight: bold; 
+    font-size: 25px;
+    border-radius: 30px;
+    border: solid 6px;
+    margin-top: 8px;
+}

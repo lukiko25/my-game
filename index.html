@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <title>Luka's Game</title>
+        <link href="index.css" rel="stylesheet">
+        <script src="main.js" lang="javascript"></script>
+        <link rel = "icon" href ="https://static.vecteezy.com/system/resources/previews/000/690/876/original/rock-paper-scissors-vector-design.jpg" type = "image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <h1><rok style="color: purple">Rock</rok> <pap style="color: blue;">Paper</pap> <and>&</and> <sc style="color: gold">Scissors</sc></h1>
+        </header>
+        <br>
+        <main>
+            <div class="container">
+                <div class="grid-container1">
+                    <div class="one p">YOU</div>
+                    <div class="grid-score">    
+                        <p id="p1-0">0</p>
+                        <h3 class="score p"> - </h3>
+                        <p id="p2-0">0</p>
+                    </div>
+                    <div class=" two p">NPC</div>
+                    <p id="scoreall"> </p>
+                </div>
+                <br>
+                <div class="grid-container2">
+                    <img id="p1" src="images/P1.jpg">
+                    <h2 class="itemVs">VS</h2>
+                    <img id="p2" src="images/P2.png">
+                </div>             
+            </div>
+        </main>
+        <br>
+        <br>
+        <footer>
+            <div class="btn-section">
+                <button class="start-btn btn" onclick="startRock()" id="rock">✊</button>
+                <button class="start-btn btn" onclick="startPaper()" id="paper">✋</button>
+                <button onclick="startScissor()" class="start-btn btn" id="scissor">✌️</button>
+                <!-- <button onclick="restartGame()" class="restart-btn btn" id="restart">RESTART</button> -->
+            </div>
+            <button onclick="restartGame()" class="restart-btn btn" id="restart">RESTART</button>
+        </footer>
+    
+    </body>
+</html>
